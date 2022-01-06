@@ -38,11 +38,13 @@ function make(string $class, string $parent): string
 {
     return <<<PHP
 <?php
+
 namespace atomita\LaravelSql92Exceptions\Exceptions;
 
 class $class extends $parent
 {
 }
+
 PHP;
 }
 
