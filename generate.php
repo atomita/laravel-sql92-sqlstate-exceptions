@@ -4,12 +4,12 @@ $sqlstate = json_decode(file_get_contents(__DIR__.'/sql92_sqlstate.json'), true)
 
 $output = __DIR__.'/src/Exceptions';
 
-function studly(string $value)
+function studly(string $value): string
 {
     return str_replace(' ', '', ucwords(str_replace(['-', '_'], ' ', strtolower($value))));
 }
 
-function endsWith(string $haystack, string $needle)
+function endsWith(string $haystack, string $needle): string
 {
     return substr($haystack, -strlen($needle)) === $needle;
 }
