@@ -1,6 +1,6 @@
 <?php
 
-namespace Atomita\LaravelSql92SqlstateExceptions;
+namespace atomita\LaravelSql92SqlstateExceptions;
 
 use Illuminate\Support\ServiceProvider;
 
