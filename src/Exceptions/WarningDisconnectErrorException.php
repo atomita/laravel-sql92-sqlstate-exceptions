@@ -1,6 +1,6 @@
 <?php
 
-namespace atomita\LaravelSql92Exceptions\Exceptions;
+namespace atomita\LaravelSql92SqlstateExceptions\Exceptions;
 
 class WarningDisconnectErrorException extends WarningException
 {

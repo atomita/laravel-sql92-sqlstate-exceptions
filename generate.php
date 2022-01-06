@@ -39,7 +39,7 @@ function make(string $class, string $parent): string
     return <<<PHP
 <?php
 
-namespace atomita\LaravelSql92Exceptions\Exceptions;
+namespace atomita\LaravelSql92SqlstateExceptions\Exceptions;
 
 class $class extends $parent
 {
