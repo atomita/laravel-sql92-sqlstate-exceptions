@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Atomita\\LaravelSql92SqlstateExceptions\\": "src"
+            "atomita\\LaravelSql92SqlstateExceptions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Atomita\\LaravelSql92SqlstateExceptions\\Tests\\": "tests"
+            "atomita\\LaravelSql92SqlstateExceptions\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Atomita\\LaravelSql92SqlstateExceptions\\LaravelSql92SqlstateExceptionsServiceProvider"
+                "atomita\\LaravelSql92SqlstateExceptions\\LaravelSql92SqlstateExceptionsServiceProvider"
             ],
             "aliases": {
-                "LaravelSql92SqlstateExceptions": "Atomita\\LaravelSql92SqlstateExceptions\\LaravelSql92SqlstateExceptionsFacade"
+                "LaravelSql92SqlstateExceptions": "atomita\\LaravelSql92SqlstateExceptions\\LaravelSql92SqlstateExceptionsFacade"
             }
         }
     }
