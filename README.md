@@ -1,10 +1,9 @@
-# Very short description of the package
+# SQL-92 SQLSTATE Exceptions for Laravel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/atomita/laravel-sql92-sqlstate-exceptions.svg?style=flat-square)](https://packagist.org/packages/atomita/laravel-sql92-sqlstate-exceptions)
 [![Total Downloads](https://img.shields.io/packagist/dt/atomita/laravel-sql92-sqlstate-exceptions.svg?style=flat-square)](https://packagist.org/packages/atomita/laravel-sql92-sqlstate-exceptions)
 ![GitHub Actions](https://github.com/atomita/laravel-sql92-sqlstate-exceptions/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
 ## Installation
 
